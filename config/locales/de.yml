@@ -1,0 +1,6 @@
+# German strings go here for Rails i18n
+# German translation by Tobias Fischer https://github.com/paginagmbh
+de:
+  permission_edit_assigned_to:     "Tickets zuweisen"
+  permission_edit_due_date:        "Abgabedatum bearbeiten"
+  permission_edit_estimated_hours: "Geschätzten Aufwand bearbeiten"

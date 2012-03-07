@@ -1,4 +1,5 @@
 # German strings go here
-permission_edit_assigned_to: "Zugewiesen an"
-permission_edit_due_date: "Bearbeite Abgabedatum"
-permission_edit_estimated_hours: "Bearbeite geschätzten Aufwand"
+# German translation by Tobias Fischer https://github.com/paginagmbh
+permission_edit_assigned_to: "Tickets zuweisen"
+permission_edit_due_date: "Abgabedatum bearbeiten"
+permission_edit_estimated_hours: "GeschÃ¤tzten Aufwand bearbeiten"
