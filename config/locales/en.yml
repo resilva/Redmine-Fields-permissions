@@ -3,3 +3,5 @@ en:
   permission_edit_assigned_to:     "Assigned to"
   permission_edit_due_date:        "Edit due date"
   permission_edit_estimated_hours: "Edit estimated time"
+  permission_edit_priority:        "Edit priority"
+  permission_edit_fixed_version:   "Edit fixed version"

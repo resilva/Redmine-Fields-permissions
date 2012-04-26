@@ -7,7 +7,9 @@
 <p><label><%= l(:field_status) %></label> <%= @issue.status.name %></p>
 <% end %>
 
+<% unless User.current.allowed_to?(:edit_priority, @project, :global => true).nil? %>
 <p><%= f.select :priority_id, (@priorities.collect {|p| [p.name, p.id]}), {:required => true}, :disabled => !@issue.leaf? %></p>
+<% end %>
 
 <!-- check if user is allowed to 'edit_assigned_to' field -->
 <% unless User.current.allowed_to?(:edit_assigned_to, @project, :global => true).nil? %>
@@ -24,6 +26,7 @@
                      :title => l(:label_issue_category_new), 
                      :tabindex => 199) if authorize_for('issue_categories', 'new') %></p>
 <% end %>
+<% unless User.current.allowed_to?(:edit_fixed_version, @project, :global => true).nil? %>
 <% unless @issue.assignable_versions.empty? %>
 <p><%= f.select :fixed_version_id, version_options_for_select(@issue.assignable_versions, @issue.fixed_version), :include_blank => true %>
 <%= prompt_to_remote(image_tag('add.png', :style => 'vertical-align: middle;'),
@@ -33,6 +36,7 @@
                      :title => l(:label_version_new), 
                      :tabindex => 200) if authorize_for('versions', 'new') %>
 </p>
+<% end %>
 <% end %>
 </div>
 
