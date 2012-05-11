@@ -16,5 +16,11 @@ Redmine::Plugin.register :redmine_fields_permissions do
   
   # Permissions for estimated hours field
   permission :edit_estimated_hours, :issues => :index
+
+  # Permissions for priority field
+  permission :edit_priority, :issues => :index
+
+  # Permissions for fixed version field
+  permission :edit_fixed_version, :issues => :index
 end
 
