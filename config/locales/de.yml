@@ -4,3 +4,5 @@ de:
   permission_edit_assigned_to:     "Tickets zuweisen"
   permission_edit_due_date:        "Abgabedatum bearbeiten"
   permission_edit_estimated_hours: "Geschätzten Aufwand bearbeiten"
+  permission_edit_priority:        "Priorität bearbeiten"
+  permission_edit_fixed_version:   "Zielversion bearbeiten"

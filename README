@@ -3,5 +3,7 @@ Fields permissions plugin allow you to enable or disable the view of 3 fields in
 - Assigned to
 - Due date
 - Estimated hours
+- Priority
+- Fixed Version
 
 With this plugins you can now disable these fields for some users or groups, it's useful because customer don't have the necessity to set these information and it's needed by managers and developers.
