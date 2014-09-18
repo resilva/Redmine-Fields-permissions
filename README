@@ -1,4 +1,7 @@
-This plugin is not maintained anymore. Call me if you fork it.
+# Redmine Fields Permissions
+
+License : WTFPL 2 (http://www.wtfpl.net/)
+WARNING: This plugin is not maintained anymore. Feel free to fork it !
 
 Fields permissions plugin allow you to enable or disable the view of 3 fields in the workflow, fields can be disabled :
 
@@ -9,3 +12,4 @@ Fields permissions plugin allow you to enable or disable the view of 3 fields in
 - Fixed Version
 
 With this plugins you can now disable these fields for some users or groups, it's useful because customer don't have the necessity to set these information and it's needed by managers and developers.
+
